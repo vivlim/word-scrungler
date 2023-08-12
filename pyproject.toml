@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "word-scrungler"
+version = "0.6.9"
+description = ""
+authors = ["Viv Lim <git@vvn.space>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+english-words = "^2.0.1"
+editdistance = "^0.6.2"
+typer = "^0.9.0"
+english-dictionary = "^1.0.24"
+
+[tool.poetry.dev-dependencies]
+cython = "^0.29.36"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
